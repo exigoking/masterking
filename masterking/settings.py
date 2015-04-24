@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'storages',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -55,7 +56,9 @@ ROOT_URLCONF = 'masterking.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+		'/home/ubuntu/srv/masterking/templates',	
+	],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -103,5 +106,4 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = '/home/ubuntu/srv/media'
 MEDIA_URL = '/media/'
-
 
