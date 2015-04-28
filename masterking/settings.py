@@ -109,8 +109,8 @@ USE_TZ = True
 #MEDIA_URL = '/media/'
 
 AWS_STORAGE_BUCKET_NAME = 'bucket-masterking-us'
-AWS_ACCESS_KEY_ID = 'AKIAJHZMBX5EJSCAAK3Q'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAIROKCHQKDZ4QWVSA'
+AWS_SECRET_ACCESS_KEY = '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'
 
 # Tell django-storages that when coming up with the URL for an item in S3 storage, keep
 # it simple - just use this domain plus the path. (If this isn't set, things get complicated).
